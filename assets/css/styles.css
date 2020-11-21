@@ -85,7 +85,7 @@ a {
 }
 
 .header__toggle {
-  font-size: 1.7rem;
+  font-size: 0px;
   cursor: pointer;
 }
 
@@ -109,6 +109,8 @@ a {
   display: flex;
   flex-direction: column;
 }
+
+
 
 .nav__perfil {
   display: flex;
@@ -384,6 +386,10 @@ a {
   .img2 {
     height: 65px;
     width: 65px;
+  }
+
+  .header__toggle {
+    font-size: 1.7rem;
   }
 
 }
